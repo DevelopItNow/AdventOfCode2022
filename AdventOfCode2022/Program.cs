@@ -10,7 +10,7 @@ namespace AOC2020
 		{
 			Stopwatch watch = Stopwatch.StartNew();
 
-			IDay day = new Day1();
+			IDay day = new Day2();
 
 			Console.WriteLine($"Part1: {day.SolvePart1()}");
 
